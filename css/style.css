@@ -1,0 +1,80 @@
+body {
+  background: #fff;
+  color: #2e2e2e;
+  font-family: "Oxygen";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  overflow-x: hidden;
+}
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+.header {
+  width: 100%;
+  padding: 17px 0;
+}
+.logo {
+  display: inline-block;
+  margin-bottom: -5px;
+  user-select: none;
+  pointer-events: none;
+}
+.navigation {
+  display: inline-block;
+  width: 100%;
+  margin-right: -100%;
+  margin-left: -90px;
+  text-align: right;
+} 
+.navigation-item {
+  padding: 10px 20px;
+  font-size: 12px;
+  line-height: 20p  x;
+  letter-spacing: .6px;
+  text-transform: uppercase;
+  color: #2e2e2e;
+}
+.startpage {
+  width: 100%;
+  text-align: center;
+  padding: 90px 0;
+}
+.startpage__title {
+  font-family: "Lora";
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+.startpage__subtitle {
+  margin-top: 20px;
+  font-size: 17px;
+  opacity: .66;
+  color: #2e2e2e;
+}
+.northern-lights {
+  width: 100%;
+  height: 534px;
+}
+.maintext {
+  padding: 140px 0 135px 0;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.footer {
+  background: linear-gradient(#232f3899, #232f3899), url("../img/footer.png") no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 23px 10px;
+}
+.footer .container {
+  max-width: 960px;
+}
+.footer .navigation-item {
+  font-size: 11px;
+  padding: 0 10px;
+}
+.footer .navigation-item {
+  color: #fff;
+  opacity: .60;
+}
