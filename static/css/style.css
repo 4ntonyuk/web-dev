@@ -87,7 +87,7 @@ img {
 
 
 .start {
-  background: url("/img/home-bg.jpg") no-repeat;
+  background: url("../img/home-bg.jpg") no-repeat;
   background-size: cover;
   position: relative;
   text-align: center;
