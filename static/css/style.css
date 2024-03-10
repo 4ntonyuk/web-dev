@@ -14,18 +14,6 @@ body {
 img {
   pointer-events: none;
 }
-.adv-tag::after {
-  content: "Adventure";
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  padding: 7px 9px;
-  font-size: 12px;
-  background: var(--accent-color);
-  border-radius: 3px;
-  text-transform: uppercase;
-  color: var(--white-color);
-}
 .container {
   max-width: 960px;
   margin: 0 auto;
@@ -53,7 +41,6 @@ img {
   line-height: 20px;
   opacity: .63;
 }
-/*********************************************/
 
 
 
@@ -146,7 +133,6 @@ img {
 }
 
 
-
 .content__featured {
   padding: 7px 10px;
   margin-top: 16px;
@@ -154,8 +140,23 @@ img {
   flex-wrap: wrap;
   gap: 20px;
 }
-.content__featured .card {
+.card {
   position: relative;
+}
+.card__tag {
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 7px 9px;
+  font-size: 12px;
+  background: var(--accent-color);
+  border-radius: 3px;
+  text-transform: uppercase;
+  color: var(--white-color);
+  user-select: none;
+}
+.content__featured .card {
   width: 460px;
   height: 280px;
 }
