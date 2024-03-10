@@ -11,11 +11,11 @@
 <body>
   <header class="header">
     <div class="container wrapper">
-      <a href="#!" class="wrapper__logo">
+      <a href="/home" class="wrapper__logo">
         <img src="./static/img/logo-light.svg" alt="escape logo">
       </a>
         <nav class="wrapper__navigation">
-          <a href="/" class="wrapper__navigation-item">Home</a>
+          <a href="/home" class="wrapper__navigation-item">Home</a>
           <a href="#!" class="wrapper__navigation-item">Categoties</a>
           <a href="#!" class="wrapper__navigation-item">About</a>
           <a href="#!" class="wrapper__navigation-item">Contact</a>
@@ -47,11 +47,11 @@
     <div class="content__wrapper container">
       <h2 class="content__title">Featured Posts</h2>
       <div class="content__featured">
-        <div class="card">
+        <div class="card adv-tag">
           <img class="card__photo" src="./static/img/TheRoadAhead.jpg" alt="The Road Ahead">
           <div class="card__wrapper">
             <div class="card__info">
-              <a href="./pages/TheRoadAhead.html" class="card__info-link title">The Road Ahead</a>
+              <a href="/page" class="card__info-link title">The Road Ahead</a>
               <p class="description">
                 The road ahead might be paved - it might not be.
               </p>
@@ -201,11 +201,11 @@
   </div>
   <footer class="footer">
     <div class="container wrapper">
-      <a href="/" class="wrapper__logo">
+      <a href="/home" class="wrapper__logo">
         <img src="./static/img/logo-light.svg" alt="escape logo">
       </a>
       <nav class="wrapper__navigation">
-        <a href="/" class="wrapper__navigation-item">Home</a>
+        <a href="/home" class="wrapper__navigation-item">Home</a>
         <a href="#!" class="wrapper__navigation-item">Categoties</a>
         <a href="#!" class="wrapper__navigation-item">About</a>
         <a href="#!" class="wrapper__navigation-item">Contact</a>
