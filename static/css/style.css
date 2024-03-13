@@ -92,10 +92,13 @@ img {
   transform: translate(-50%, -50%);
 }
 .start__subtitle {
-  margin: 20px 0 41px 0;
+  margin-top: 20px;
 }
 .start__button {
+  display: block;
+  margin: 0 auto;
   margin-top: 31px;
+  width: 167px;
 }
 
 

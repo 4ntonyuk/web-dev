@@ -120,16 +120,14 @@ $posts = [
     </div>
   </header>
   <div class="start">
-    <div class="container">
-      <div class="start__wrapper">
-        <h1 class="title white-color">
-          Let's do it together.
-        </h1>
-        <p class="start__subtitle description white-color">
-          We travel the world in search of stories. Come along for the ride.
-        </p>
-        <a href="#!" class="start__button accent-button">View Latest Posts</a>
-      </div>
+    <div class="start__wrapper">
+      <h1 class="title white-color">
+        Let's do it together.
+      </h1>
+      <p class="start__subtitle description white-color">
+        We travel the world in search of stories. Come along for the ride.
+      </p>
+      <a href="#!" class="start__button accent-button">View Latest Posts</a>
     </div>
   </div>
   <div class="tags-menu container wrapper">
